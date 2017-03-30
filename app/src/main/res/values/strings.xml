@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WomenInTech</string>
+    <string name="name1">Ada Lovelace</string>
+    <string name="describe1"> (10.12. 1815.–29.12.1852.)
+Augusta Ada King je čuvena britanska matematičarka i općeprihvaćena kao prvi programer. Rođena u Londonu 10. decembra 1815. godine kao lady Augusta Ada Byron. Kćerka je poznatog britanskog pjesnika, Georgea Gordona Byrona. Zahvaljujući braku s William Kingom, 1. grofom od Lovelacea, nosila je titulu grofice od Lovelacea. Dok je bila studentica poznatog matematičara Augustusa De Morgana upoznaje se sa radom Charles Babbagea na diferencijalnoj i analitičkoj mašini. U toku svog kontakta sa Babbageom opisuje način na koji se analitička mašina može programirati da izračuna određene brojeve. To je ušlo u povijest kao prvi računarski program i danas je Ada King Lovelace poznata kao prva žena programer, tj. prvi programer. Programski jezik Ada je dobio ime po njoj.
+</string>
+    <string name="name2">Grace Hopper</string>
+    <string name="describe2">(9.12.1906.–1.1.1992.)
+        Grace Hopper je bila časnica američke mornarice i prva programerka elektro-mehaničkog računala Harvard Mark I, poznata kao “Majka COBOL-a” (kompjuterskog programskog jezika). Razvila je prvi ikad compiler (pretvara kod u programski jezik) poznat kao A-0. Također je popularizirala termin – debugging, koji je dobio naziv prema moljcu koji je pronašla u Harvard Mark II računalu.</string>
+
+    <string name="name3">Barbara Liskov</string>
+    <string name="describe3"> (7.11.1939.-(-))
+        Barbara Liskov je jedna od prvih žena koja je doktorirala u oblasti informatike u SAD. Poznata je kao inovator u oblasti programa koji pristupaju i analiziraju baze podataka, a sada predaje inženjering na Tehnološkom institutu države Masačusets (MIT). Iz ugla profesora primećuje da ima mnogo manje žena nego muškaraca na fakultetima informacionih tehnologija i da bi to trebalo menjati jer muškarci i žene imaju iste predispozicije.</string>
+
+    <string name="Toast2"> Vjerujem da posjedujem jedinstvenu kombinaciju kvaliteta koja me prije svega čini istraživačem skrivenih realnosti u prirodi. </string>
+    <string name="Toast1"> Brod u luci je siguran, ali to nije ono za šta su brodovi izgrađeni. </string>
+    <string name="Toast3"> Budite svjesne šta radite i koje mogućnosti imate. Zakoračite u ono što vam djeluje ispravno i onda ćete videti gde vas to sve može odvesti. </string>
+
+</resources>

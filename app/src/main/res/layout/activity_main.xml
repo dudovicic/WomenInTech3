@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hr.ferit.dudovicic.womenintech.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10px" >
+
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name1"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <ImageButton
+        android:id="@+id/image1"
+        android:layout_width="170dp"
+        android:layout_height="159dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ada"
+        android:layout_below="@+id/name1"
+        />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="170dp"
+            android:id="@+id/nest_scrollview1"
+            android:fillViewport="true"
+            android:layout_below="@id/name1"
+            android:layout_toRightOf="@id/image1"
+            >
+    <TextView
+        android:id="@+id/describe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/describe1"
+        android:nestedScrollingEnabled="true"
+        android:scrollbars = "vertical"
+        android:maxLines = "50"
+        />
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <TextView
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name2"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/image1"
+        />
+    <ImageButton
+        android:id="@+id/image2"
+        android:layout_width="170dp"
+        android:layout_height="159dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/grace3"
+        android:layout_below="@+id/name2"
+        />
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="170dp"
+            android:id="@+id/nest_scrollview2"
+            android:fillViewport="true"
+            android:layout_below="@id/name2"
+            android:layout_toRightOf="@id/image2"
+            >
+        <TextView
+            android:id="@+id/describe2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/describe2"
+            android:layout_below="@id/name2"
+            android:layout_toRightOf="@id/image2"
+            android:scrollbars = "vertical"
+            android:nestedScrollingEnabled="true"
+            android:maxLines = "50"
+            />
+        </android.support.v4.widget.NestedScrollView>
+
+
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name3"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/image2"
+        />
+    <ImageButton
+        android:id="@+id/image3"
+        android:layout_width="170dp"
+        android:layout_height="159dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/barbara"
+        android:layout_below="@+id/name3"
+        />
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="170dp"
+            android:id="@+id/nest_scrollview3"
+            android:fillViewport="true"
+            android:layout_below="@id/name3"
+            android:layout_toRightOf="@id/image3"
+            >
+    <TextView
+        android:id="@+id/describe3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/describe3"
+        android:layout_below="@id/name3"
+        android:layout_toRightOf="@id/image3"
+        android:scrollbars = "vertical"
+        android:nestedScrollingEnabled="true"
+        android:maxLines = "50"
+        />
+        </android.support.v4.widget.NestedScrollView>
+
+    </RelativeLayout>
+    </ScrollView>
+
